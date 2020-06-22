@@ -1,6 +1,6 @@
 using System;
 
-namespace dating_app_back
+namespace DatingApp
 {
     public class WeatherForecast
     {

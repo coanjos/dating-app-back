@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace dating_app_back.Controllers
+namespace DatingApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]
