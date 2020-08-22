@@ -174,8 +174,6 @@ namespace DatingApp.Controllers
                 _repo.Delete(photoFromRepo);
             }
 
-
-
             if (await _repo.SaveAll())            
                 return Ok();
 

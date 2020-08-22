@@ -25,7 +25,7 @@ namespace DatingApp.Controllers
             _mapper = mapper;
         }
         // GET: api/Users
-        [Authorize]
+        //[Authorize]
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
@@ -38,7 +38,7 @@ namespace DatingApp.Controllers
 
         // GET: api/Users/5
         [Authorize]
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "GetUser")]
         public async Task<IActionResult> GetUser(int id)
         {
             var user = await _repo.GetUser(id);
